@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "header_div   text-center">
+            <h1> Sound Controlled Animals </h1>
+            <p> Identifies different sound like barking, meowing, cow noise </p>
+        </div>
+        <center>
+            <div class = "main_div">
+                <label id="dog_detected"> Detected Dog : </label>
+                <label id="cat_detected"> Detected Cat : </label>
+                <label id="cow_detected"> Detected Cow : </label>
+                <h2 id="voice_detecter"> Detected Voice is of - </h2>
+                <img src ="ear.jpg" id="ear_img" height="50%">
+                <br>
+                <br>
+                <button id="start_btn"  class="btn btn-primary" onclick="startClassification()"> START </button>
+            </div>
+        </center>
+        <div class="footer_div">
+            Developed By : Gagan
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

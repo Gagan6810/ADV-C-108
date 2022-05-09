@@ -1,0 +1,47 @@
+body{
+    background:aquamarine;
+}
+
+.header_div{
+    background:whitesmoke;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:navy;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.header_div h1{
+    font-size:70px;
+}
+
+.header_div p{
+    font-size:20px;
+}
+
+.main_div{
+    font-family: 'Dancing Script', cursive;
+}
+
+.footer_div{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    line-height:2;
+    text-align:center;
+    background:aqua;
+    color:black;
+    font-size:20px;
+    font-weight:bolder;
+    text-shadow: 10px 7px 3px grey;
+    font-family: 'Lavishly Yours', cursive;
+}
+
+#start_btn{
+    width:125px;
+    height:40px;
+}
+
+label{
+    font-size: 20px;
+    margin-right:5px;
+}
